@@ -1,5 +1,5 @@
 #include "rclcpp/rclcpp.hpp"
-#include "custom_interfaces/msg/custom.hpp" // 수정된 헤더 파일
+#include "custom_interfaces/msg/custom.hpp" // Input our custom msg
 
 class CustomPublisher : public rclcpp::Node
 {
